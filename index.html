@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditi's Portfolio</title>
+
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/media-query.css" />
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+  <link rel="stylesheet" type="text/css" href="css/owl.theme.green.css" />
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <!-- Fontawesome CDN -->
+  <script src="https://kit.fontawesome.com/d67de00895.js" crossorigin="anonymous"></script>
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+  <!-- Owl Carasoul CDN -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+  <!-- Data AOS CDN -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+<!-- Dropdown -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container justify-content-between">
+      <a class="navbar-brand" href="#Home">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ">
+          <li class="nav-item ">
+            <a class="nav-link active" href="#Home" >Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li> 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" 
+            id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Work
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#Skills">Skills</a>
+            <a class="dropdown-item" href="#experience">Experience</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<script>
+ $(document).ready(function(){
+  $('nav ul li a').click(function(){
+   $('nav ul li a').removeClass("active");
+   $(this).addClass("active ");
+ });
+});
+ 
+</script>
+
+
+<section class="banner"  id="Home" >
+  <div class="container">
+    <div class="row ">
+      <div class="col-sm-12 col-xl-6 col-lg-6 col-md-6  banner-image"  data-aos="fade-right"
+      data-aos-duration="3000">
+      <img class="img-fluid mx-auto d-block" src="images/278502286_3190466864542179_5962540089968078716_n.jpg">
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 banner-note">
+      <h1 class="text-white">
+        <span><b>Hi!</b></span><br><span>I am Aditi Dutta...</span> </h1>
+        <h2 class="text-white">Web Designer <i class="fa-solid fa-location-dot"></i> India<br></h2>
+        <div class="banner-note-wrapper ">
+          <p class=""><i class="fa-solid fa-calendar-days "></i> 09-12-1996</p> 
+          <p class=""><i class="fa-brands fa-whatsapp"></i> +91 7686015227</p>
+          <p class=""><a href="https://myaccount.google.com/?tab=kk&hl=en"> <i class="fa-solid fa-envelope"></i>  aditidutta040@gmail.com</a></p>
+          <ul class="list personal_social d-lg-none d-md-none text-center gx-7">
+            <li><a href="https://www.facebook.com/aditi.dutta.7564"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.behance.net/aditidutta07"><i class="fa-brands fa-behance"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/aditi-dutta-ba94131b4/"><i class="fa fa-linkedin"></i></a>
+            <li><a href="https://myaccount.google.com/?tab=kk&hl=en"><i class="fa-solid fa-envelope"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="About" class=""  >
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-10">
+          <div class="about-wrappper" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <div class="row justify-content-center">
+            <div class="col-xxl-10 col-xl-12 col-lg-10">
+              <div class="about-caption mb-40 text-center">
+                <span>About Myself</span>
+                <h2>Born and brought up in Kolkata. 
+                  Web designing is the most important aspect of my career.
+                  I started the training of Web Designing  in 2020 & completed in 2021. 
+                Now I want to persue my career as a Website Designer.... </h2>
+                <a href="images/aditi dutta 2023 resume.pdf" target="_blank" class="btn_02 mb-10">Download Resume <i class="fa-solid fa-briefcase"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script>
+          AOS.init();
+        </script>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="Skills">
+  <div class="wrapper" >
+    <h1 class="text-center" >SKILLS</h1>
+    <div class="bar-1" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom" data-aos-easing="linear"
+    data-aos-duration="1000">
+    <div class="title font-weight-bold">HTML5</div>
+    <div class="bar " data-width="80%">
+      <div class="bar-inner">
+
+      </div>
+      <div class="bar-percent">80%</div>
+    </div>
+  </div>
+  <div class="bar-1" data-aos="fade-up"
+  data-aos-anchor-placement="top-bottom" data-aos-easing="linear"
+  data-aos-duration="1000">
+  <div class="title font-weight-bold" >CSS3</div>
+  <div class="bar" data-width="80%">
+    <div class="bar-inner" >
+
+    </div>
+    <div class="bar-percent">80%</div>
+  </div>
+</div>
+<div class="bar-1" data-aos="fade-up"
+data-aos-anchor-placement="top-bottom" data-aos-easing="linear"
+data-aos-duration="1000">
+<div class="title font-weight-bold" >Bootstrap 5</div>
+<div class="bar" data-width="75%">
+  <div class="bar-inner" >
+
+  </div>
+  <div class="bar-percent">75%</div>
+</div>
+</div>
+
+<div class="bar-1" data-aos="fade-up"
+data-aos-anchor-placement="top-bottom" data-aos-easing="linear"
+data-aos-duration="1000">
+<div class="title font-weight-bold" >jquery</div>
+<div class="bar" data-width="50%">
+  <div class="bar-inner" >
+
+  </div>
+  <div class="bar-percent">50%</div>
+</div>
+</div>
+<div class="bar-1" data-aos="fade-up"
+data-aos-anchor-placement="top-bottom" data-aos-easing="linear"
+data-aos-duration="1000">
+<div class="title font-weight-bold" >photoshop</div>
+<div class="bar" data-width="80%">
+  <div class="bar-inner" >
+
+  </div>
+  <div class="bar-percent">80%</div>
+</div>
+</div>
+</div>
+</section>
+<script>
+            //  $(".bar").each(function(){
+            //   $(this).find(".bar-inner").animate({
+            //     width: $(this).attr("data-width")
+            //   },"3000")
+            // });
+  $(document).ready(function() {
+    $(window).scroll(function() {
+      $(".bar").each(function() {
+        $(this).children(".bar-inner").animate({
+          width:$(this).attr("data-width")
+        },3000)
+      });
+    });
+  });
+</script>
+
+<section id="experience">
+  <h1 class="text-center text-white ">EXPERIENCE</h1>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12 ">
+        <div class="experience-pic-border" >
+         <!-- <img class="img-fluid" src="images/960x0.jpg"/>  -->
+         <div class="owl-carousel owl-theme" data-aos="fade-up"
+         data-aos-duration="2000">
+         <div class="item"><img class="img-fluid" src="images/HTML-Blog-Cover.png"/></div>
+         <div class="item"><img class="img-fluid" src="images/CSS Blog Cover.png"/></div>
+         <div class="item"><img class="img-fluid" src="images/bootstrap-social.png"/></div>
+         <div class="item"><img class="img-fluid" src="images/jquery-logo-blue.png"/></div>
+       </div>
+       <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+          items : 1,
+          loop:true,
+          margin:30,
+          nav : true,
+          mouseDrag : true,
+          touchDrag : true,
+          autoplay:true,
+          autoplayTimeout:4000,
+          responsive:{
+            0:{
+              items:1,
+              nav:true
+            },
+            600:{
+              items:1,
+              nav:false
+            },
+            1000:{
+              items:1,
+              nav:true,
+              loop:false
+            }
+          }
+        });
+      </script>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12 " data-aos="fade-up"
+  data-aos-duration="3000">
+  <div class="experince-note-wrapper">
+   <p class="text-white"><span><b> COMPANY NAME-</b></span> Webdev Mart Infotech</p>
+   <p class="text-white"><span><b>DESIGNATION-</b></span> Web Designer</p>
+   <p class="text-white"><span><b> [03/01/2022-20/01/2023]</b></span></p>
+   <p class="text-white">One year working experince on HTML5, CSS3, Bootstrap5, Jquery, & Photoshop...</p>
+ </div>
+</div>
+</div>
+</div>
+</section>
+<section id="contact">
+  <h1 class="text-center pt-2 pb-5">Get in touch</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 " data-aos="fade-right"
+      data-aos-anchor="#example-anchor"
+      data-aos-offset="300"
+
+      data-aos-duration="1000">
+      <form action="" class="site-form" id="contact-form" data-aos="fade-up"
+      data-aos-duration="2000">
+      <h3 class="">Let's work together</h3>
+      <div class="form-group">
+        <input type="text" class="form-control px-3 py-4 mb-2" placeholder="Your Name" required>
+
+        <input type="email" class="form-control px-3 py-4 mb-2" placeholder="Your Email"required>
+
+        <input type="email" class="form-control px-3 py-4 mb-2" placeholder="Your Phone"required>
+
+        <textarea class="form-control px-3 py-4 mb-2" cols="30" rows="3" placeholder="Write a Message"></textarea>
+
+        <input type="submit" class="btn btn-block  px-4 py-3 " value="Send Message">
+      </div>
+    </form>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#contact-form").submit(function(){
+          alert("Thank You For choosing Us");
+        });
+      });
+    </script>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-12 " data-aos="fade-up"
+  data-aos-duration="2000">
+  <h3 class="">My Contact Details</h3>
+  <ul class="site-contact-details">
+    <li>
+      <span class="text-uppercase">Email</span>
+      <i class="fa-solid fa-envelope"></i>  aditidutta040@gmail.com
+    </li><br>
+    <li>
+      <span class="text-uppercase">Phone</span>
+      <i class="fa-brands fa-whatsapp"></i> +91 7686015227
+    </li><br>
+
+    <li>
+      <span class="text-uppercase">Address</span>
+      <i class="fa-solid fa-location-dot"></i> 20, D.R P.N MUKHERJEE ST.<br> “SAILA NIHAR” FLAT NO-305 (3rd flr.) <br>PIN-712204,<br> P.O- CHATRA, SERAMPORE, HOOGHLY
+    </li><br>
+  </ul>
+  <ul class="list personal_social">
+    <li><a href="https://www.facebook.com/aditi.dutta.7564"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="https://www.behance.net/aditidutta07"><i class="fa-brands fa-behance"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/aditi-dutta-ba94131b4/"><i class="fa fa-linkedin"></i></a></li>
+  </ul>
+</div>
+</div>
+</div>
+
+</section>
+
+<a href="#" id="scroll" style="display: none;"><span></span></a>  
+<script>
+  $(document).ready(function(){ 
+    $(window).scroll(function(){ 
+      if ($(this).scrollTop() > 100) { 
+        $('#scroll').fadeIn(); 
+      } else { 
+        $('#scroll').fadeOut(); 
+      } 
+    }); 
+    $('#scroll').click(function(){ 
+      $("html, body").animate({ scrollTop: 0 }, 600); 
+      return false; 
+    }); 
+  });
+</script>
+</body>
+</html>
